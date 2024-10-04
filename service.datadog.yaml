@@ -1,7 +1,7 @@
 apiVersion: v3
 kind: service
 metadata:
-  name: foo
+  name: foo2
 datadog:
   codeLocations:
     - repositoryURL: https://github.com/juli1/service-catalog-integration-test.git
