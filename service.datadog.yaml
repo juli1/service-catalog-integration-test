@@ -1,0 +1,21 @@
+apiVersion: v3
+kind: service
+metadata:
+  name: foo
+datadog:
+  codeLocations:
+    - repositoryURL: https://github.com/juli1/service-catalog-integration-test.git
+      paths:
+        - /service-foo/*
+---
+apiVersion: v3
+kind: service
+metadata:
+  name: bar
+datadog:
+  codeLocations:
+    - repositoryURL: https://github.com/juli1/service-catalog-integration-test.git
+      paths:
+        - /service-bar/*
+
+
