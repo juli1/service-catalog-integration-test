@@ -6,7 +6,7 @@ datadog:
   codeLocations:
     - repositoryURL: https://github.com/juli1/service-catalog-integration-test.git
       paths:
-        - /service-foo/*
+        - service-foo/*
 ---
 apiVersion: v3
 kind: service
@@ -16,6 +16,6 @@ datadog:
   codeLocations:
     - repositoryURL: https://github.com/juli1/service-catalog-integration-test.git
       paths:
-        - /service-bar/*
+        - service-bar/*
 
 
